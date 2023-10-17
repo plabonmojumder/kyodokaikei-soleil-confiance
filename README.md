@@ -1,0 +1,1 @@
+# kyodokaikei-soleil-confiance
