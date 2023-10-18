@@ -325,6 +325,7 @@ nav.navbar ul li a {
 .reservaton-bottom-button button:nth-child(1) {
   background-color: #ff0000;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid #ff0000;
 }
 .reservaton-bottom-button button:nth-child(1):hover {
   background-color: #fff;
@@ -335,6 +336,8 @@ nav.navbar ul li a {
 .reservaton-bottom-button button:nth-child(2) {
   background-color: #051c31;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid #051c31;
+  
 }
 .reservaton-bottom-button button:nth-child(2):hover {
   background-color: #fff;
@@ -345,6 +348,7 @@ nav.navbar ul li a {
 .reservaton-bottom-button button:nth-child(3) {
   background-color: #f2833b;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid #f2833b;
 }
 .reservaton-bottom-button button:nth-child(3):hover {
   background-color: #fff;
