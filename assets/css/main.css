@@ -204,7 +204,7 @@ nav.navbar ul li a {
   text-align: center;
 }
 .side-bar-design .sideber-button .side-link i {
-  font-size: 14px;
+  font-size: 13px;
 }
 .side-bar-design .sideber-button .side-link:hover {
   background-color: var(--sky-blue);
@@ -387,12 +387,12 @@ nav.navbar ul li a {
 .footer-item .footer-link {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .footer-item a {
   font-size: 14px;
-  line-height: 25px;
+  line-height: 30px;
   color: var(--light-black);
   font-weight: 400;
 }
