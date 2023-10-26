@@ -194,7 +194,6 @@ nav.navbar ul li a {
   display: block;
   width: 100%;
   padding: 13px 10px;
-  box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border: 2px solid var(--sky-blue);
   border-radius: 5px;
@@ -215,7 +214,7 @@ nav.navbar ul li a {
 
 /*------------- reservation-css -start-------*/
 .reservaton-wraper {
-  border-bottom: 2px dotted var(--sky-blue);
+  /* border-bottom: 2px dotted var(--sky-blue); */
   margin-bottom: 10px;
 }
 .reservaton-section-title-box {
@@ -232,7 +231,7 @@ nav.navbar ul li a {
   color:var(--white);
 }
 .reservaton-left-cntent {
-  border-right: 2px dotted var(--sky-blue);
+  border-right: 2px solid rgb(228, 225, 225);
   /* border-bottom:2px solid #0f86f6 ; */
   padding: 10px 0px;
   text-align: center;
@@ -271,7 +270,7 @@ nav.navbar ul li a {
   align-items: center;
   border: 1px solid var(--sky-blue);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 .reservaton-box:hover {
   background-color: var(--sky-blue);
@@ -295,7 +294,7 @@ nav.navbar ul li a {
   text-align: center;
   font-weight: 400;
   line-height: 25px;
-  color: var(--light-black);
+  color: var(--sky-blue);
 }
 
 .right-icon i {
@@ -311,10 +310,11 @@ nav.navbar ul li a {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 .reservaton-bottom-button button {
-  padding: 5px 15px;
+  padding: 8px 15px;
   border: none;
   font-size: 14px;
   line-height: 20px;
@@ -404,7 +404,7 @@ nav.navbar ul li a {
 
 .footer-item i {
   font-size: 12px;
-  color: var(--sky-blue);
+  color: var(--light-black);
   margin-right: 8px;
 }
 
@@ -412,4 +412,3 @@ nav.navbar ul li a {
   color: var(--sky-blue);
   font-weight: 400;
 }
-
