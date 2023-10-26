@@ -147,17 +147,17 @@ nav.navbar ul li a {
   height: 60px;
   background-color: var(--white);
   border: 1px solid var(--sky-blue);
+ 
 }
 .consaltation-consal-title-2 h1 {
   /* padding: 16px 0px; */
   text-align: center;
-  font-size: 17px;
+  font-size: 15px;
   color: var(--sky-blue);
   font-weight: 600;
 }
 .consaltation-arrow-2 {
   position: absolute;
-
   z-index: -1;
   left: 50%;
   top: 55px;
@@ -168,6 +168,30 @@ nav.navbar ul li a {
   color: var(--sky-blue);
 }
 
+/*--- manager-introduction & company-address-css-start----- */
+.table {
+  width: 100%;
+  margin-bottom: 16px;
+  color: var(--light-black);
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: 400;
+}
+.tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.table td, .table th {
+  padding: 12px;
+  border-top: 1px solid #dee2e6;
+}
+.table .tr .th {
+  color: var(--sky-blue);
+}
+/*--- manager-introduction & company-address-css-end----- */
+
 /*------- side-bar-css-start -------*/
 .side-bar-design {
   display: block;
@@ -175,7 +199,7 @@ nav.navbar ul li a {
   /* background: #0f86f6; */
   border: 2px solid var(--sky-blue);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   padding: 20px;
   position: sticky;
   top: 10%;
@@ -212,9 +236,9 @@ nav.navbar ul li a {
 }
 /* ----side-bar-css-end----- */
 
+
 /*------------- reservation-css -start-------*/
 .reservaton-wraper {
-  /* border-bottom: 2px dotted var(--sky-blue); */
   margin-bottom: 10px;
 }
 .reservaton-section-title-box {
@@ -412,3 +436,7 @@ nav.navbar ul li a {
   color: var(--sky-blue);
   font-weight: 400;
 }
+
+
+
+
