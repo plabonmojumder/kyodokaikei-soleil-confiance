@@ -42,7 +42,7 @@ img {
   --black: #000;
   --golden: #765727;
   --yellow: #f8b500;
-  --light-black:#444;
+  --light-black: #444;
 }
 /*-----common- css end------ */
 
@@ -77,7 +77,6 @@ nav.navbar a.navbar-brand {
   padding-bottom: 5px;
   margin-right: 16px;
   font-size: 20px;
-  
 }
 .navbar-nav {
   display: flex;
@@ -147,7 +146,6 @@ nav.navbar ul li a {
   height: 60px;
   background-color: var(--white);
   border: 1px solid var(--sky-blue);
- 
 }
 .consaltation-consal-title-2 h1 {
   /* padding: 16px 0px; */
@@ -176,14 +174,14 @@ nav.navbar ul li a {
   border-collapse: collapse;
   font-size: 14px;
   line-height: 25px;
-  font-family: 400;
 }
 .tbody {
   display: table-row-group;
   vertical-align: middle;
   border-color: inherit;
 }
-.table td, .table th {
+.table td,
+.table th {
   padding: 12px;
   border-top: 1px solid #dee2e6;
 }
@@ -212,8 +210,7 @@ nav.navbar ul li a {
   margin: 13px 0px 13px -30px;
 }
 .side-bar-design .sideber-button .side-link {
-  background-color:var(--white);
-  font-weight: 400;
+  background-color: var(--white);
   font-size: 16px;
   display: block;
   width: 100%;
@@ -226,16 +223,29 @@ nav.navbar ul li a {
   cursor: pointer;
   text-align: center;
 }
+.side-bar-design .sideber-button .side-link-1 {
+  background-color: var(--sky-blue);
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  padding: 13px 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 2px solid var(--sky-blue);
+  border-radius: 5px;
+  outline: none;
+  color: var(--white);
+  /* cursor: pointer; */
+  text-align: center;
+}
 .side-bar-design .sideber-button .side-link i {
   font-size: 13px;
 }
-.side-bar-design .sideber-button .side-link:hover {
+.side-bar-design .sideber-button .side-link:active {
   background-color: var(--sky-blue);
-  color:var(--white);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-/* ----side-bar-css-end----- */
+  color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
 
+/* ----side-bar-css-end----- */
 
 /*------------- reservation-css -start-------*/
 .reservaton-wraper {
@@ -252,7 +262,7 @@ nav.navbar ul li a {
   text-align: center;
 
   font-size: 22px;
-  color:var(--white);
+  color: var(--white);
 }
 .reservaton-left-cntent {
   border-right: 2px solid rgb(228, 225, 225);
@@ -304,7 +314,7 @@ nav.navbar ul li a {
   color: var(--white);
 }
 .reservaton-box:hover .right-icon i {
-  background-color:var(--white);
+  background-color: var(--white);
   color: var(--sky-blue);
 }
 
@@ -316,7 +326,6 @@ nav.navbar ul li a {
 .reservaton-box p {
   font-size: 16px;
   text-align: center;
-  font-weight: 400;
   line-height: 25px;
   color: var(--sky-blue);
 }
@@ -327,7 +336,7 @@ nav.navbar ul li a {
   border-radius: 50%;
   font-size: 15px;
   font-weight: 700;
-  color:var(--white);
+  color: var(--white);
 }
 .reservaton-bottom-button {
   display: flex;
@@ -343,8 +352,8 @@ nav.navbar ul li a {
   font-size: 14px;
   line-height: 20px;
   border-radius: 20px;
-  color:var(--white);
-  font-weight: 400;
+  color: var(--white);
+  line-height: 25px;
 }
 .reservaton-bottom-button button:nth-child(1) {
   background-color: #ff0000;
@@ -352,21 +361,24 @@ nav.navbar ul li a {
   border: 1px solid #ff0000;
 }
 .reservaton-bottom-button button:nth-child(1):hover {
-  background-color: #fff;
+  background-color: var(--white);
   border: 1px solid #ff0000;
   color: #ff0000;
+  text-decoration: underline;
+
 }
 
 .reservaton-bottom-button button:nth-child(2) {
   background-color: #051c31;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border: 1px solid #051c31;
-  
 }
 .reservaton-bottom-button button:nth-child(2):hover {
-  background-color: #fff;
+  background-color:var(--white);
   border: 1px solid #051c31;
   color: #051c31;
+  text-decoration: underline;
+
 }
 
 .reservaton-bottom-button button:nth-child(3) {
@@ -375,16 +387,18 @@ nav.navbar ul li a {
   border: 1px solid #f2833b;
 }
 .reservaton-bottom-button button:nth-child(3):hover {
-  background-color: #fff;
+  background-color:var(--white);
   border: 1px solid #f2833b;
   color: #f2833b;
+  text-decoration: underline;
+
 }
 
-/*------------- reservation-css -end-------*/
+/*---- reservation-css -end------*/
 
-/* ------------footer-css---------*/
+/* -----footer-css-start------*/
 .footer-section {
-  background-color:var(--white);
+  background-color: var(--white);
 }
 .footer-heading-title {
   height: 40px;
@@ -397,7 +411,7 @@ nav.navbar ul li a {
 .footer-heading-title a {
   font-size: 18px;
   text-decoration: underline;
-  color:var(--white);
+  color: var(--white);
 }
 .footer-title {
   border-bottom: 1px solid var(--black);
@@ -423,7 +437,6 @@ nav.navbar ul li a {
   font-size: 14px;
   line-height: 30px;
   color: var(--light-black);
-  font-weight: 400;
 }
 
 .footer-item i {
@@ -431,12 +444,4 @@ nav.navbar ul li a {
   color: var(--light-black);
   margin-right: 8px;
 }
-
-.footer-item a:hover {
-  color: var(--sky-blue);
-  font-weight: 400;
-}
-
-
-
 
