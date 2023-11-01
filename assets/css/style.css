@@ -132,7 +132,7 @@
   border-bottom: 1px dotted var(--sky-blue);
 }
 
-.property-tax-tittle h1 {
+.property-tax-tittle h3 {
   font-size: 20px;
   font-weight: 600;
   color: var(--sky-blue);
@@ -144,7 +144,7 @@
   height: auto;
 }
 
-.image-bottom-item h1 {
+.image-bottom-item h3 {
   font-size: 16px;
   font-weight: 600;
   padding: 20px 0px;
@@ -210,7 +210,7 @@
 /* ====nagan-&-jotesu-office-page-css-end==== */
 
 /* ======inheritance-page-css-start===== */
-.inheritance-heading-tittle h1 {
+.inheritance-heading-tittle h3 {
   font-size: 22px;
   color: var(--sky-blue);
   font-weight: 600;
@@ -237,7 +237,7 @@
   height: 50px;
   background-color: #d5ebff;
 }
-.inheritance-card-tittle h1 {
+.inheritance-card-tittle h3 {
   /* padding: 16px 0px; */
   text-align: center;
   font-size: 15px;
@@ -270,7 +270,7 @@
   color: #3b3939;
 }
 
-.inheritance-task-box-bottom-item h1 {
+.inheritance-task-box-bottom-item h3 {
   font-size: 17px;
   color: var(--black);
   font-weight: 600;
@@ -293,7 +293,7 @@
   line-height: 25px;
 }
 
-.choose-tax-accountant-part h1 {
+.choose-tax-accountant-part h3 {
   padding: 20px 0px;
   font-size: 22px;
   color: var(--sky-blue);
@@ -315,7 +315,7 @@
   line-height: 25px;
 }
 
-.tax-package-item h1 {
+.tax-package-item h3 {
   padding: 10px 0px;
   color: var(--black);
   font-size: 15px;
@@ -336,7 +336,7 @@
   margin: 20px 0px;
   padding: 15px 8px;
 }
-.task-package-bottom-box h1 {
+.task-package-bottom-box h3 {
   text-align: center;
   font-size: 15px;
   line-height: 25px;
@@ -372,7 +372,7 @@
   padding: 60px 0px;
   border: 3px solid var(--sky-blue);
 }
-.refunded-amount-box h1 {
+.refunded-amount-box h3 {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
@@ -419,7 +419,7 @@
 
 /* ====real-state-page-css-star==== */
 
-.real-state-page-heading-title h1 {
+.real-state-page-heading-title h3 {
   font-size: 22px;
   font-weight: 600;
   line-height: 30px;
@@ -438,7 +438,7 @@
   padding: 15px 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.task-package-box h1 {
+.task-package-box h3 {
   color: var(--white);
   text-align: center;
   font-size: 20px;
@@ -477,7 +477,7 @@
 
 /* ======family-trust-page-css-start====== */
 
-.family-trust-heading-title h1 {
+.family-trust-heading-title h3 {
   color: var(--sky-blue);
   line-height: 30px;
   font-size: 22px;
@@ -572,7 +572,7 @@
   border: 1px solid var(--sky-blue);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.yen-box h1 {
+.yen-box h3 {
   color: var(--yellow);
   text-align: center;
   font-size: 17px;
@@ -592,7 +592,7 @@
 
 /* ===business-succession-page-css-start=== */
 
-.buisness-hedeing-title h1 {
+.buisness-hedeing-title h3 {
   font-size: 22px;
   color: var(--sky-blue);
   font-weight: 600;
@@ -657,7 +657,7 @@
   color: var(--light-black);
 }
 
-.point-two-num-list h1 {
+.point-two-num-list h3 {
   margin-top: 10px;
   font-size: 16px;
   font-weight: 600;
@@ -696,7 +696,7 @@
   background-color: var(--golden);
   border: 1px solid var(--yellow);
 }
-.golden-box h1 {
+.golden-box h3 {
   text-align: center;
   font-size: 17px;
   font-weight: 600;
@@ -732,7 +732,7 @@
 
 /* =====medical-page-css-start===== */
 
-.medical-page-heading-title h1 {
+.medical-page-heading-title h3 {
   color: var(--sky-blue);
   font-size: 22px;
   font-weight: 500;
@@ -747,7 +747,7 @@
   margin-top: 25px;
 }
 
-.invested-interests-box-bottom-content h1 {
+.invested-interests-box-bottom-content h3 {
   font-size: 18px;
   color: var(--golden);
   font-weight: 600;
@@ -778,7 +778,7 @@
   padding: 60px 20px 20px 20px;
   background-color: rgb(248, 239, 239);
 }
-.ministry-of-health h1 {
+.ministry-of-health h3 {
   font-size: 20px;
   line-height: 25px;
   margin-bottom: 40px;
@@ -808,7 +808,7 @@
   padding: 15px 0px;
   border: 1px solid var(--sky-blue);
 }
-.simple-package-box h1 {
+.simple-package-box h3 {
   font-size: 16px;
   text-align: center;
   font-weight: 600;
@@ -850,12 +850,12 @@
   line-height: 30px;
 }
 
-.medical-contact-bottom-content h1 {
+.medical-contact-bottom-content h3 {
   font-size: 22px;
   color: var(--sky-blue);
   line-height: 30px;
 }
-.medical-contact-bottom-content h2 {
+.medical-contact-bottom-content h3 {
   margin-top: 30px;
   font-size: 17px;
   font-weight: 600;
@@ -879,7 +879,7 @@
   line-height: 25px;
 }
 
-.single-step-bottom-tittle h1 {
+.single-step-bottom-tittle h3 {
   background: #d5ebff;
   color: var(--black);
   text-align: center;

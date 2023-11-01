@@ -109,7 +109,7 @@ nav.navbar ul li a {
   top: 50%;          
   transform: translate(-50%,-50%);
 }
-.banner-inner-content  h2{
+.banner-inner-content  h3{
  font-size: 30px;
  line-height: 35px;
  font-weight: 700;
@@ -133,7 +133,7 @@ nav.navbar ul li a {
   height: 50px;
   background-color: var(--sky-blue);
 }
-.consaltation-consal-title h1 {
+.consaltation-consal-title h3 {
   /* padding: 16px 0px; */
   text-align: center;
   font-size: 15px;
@@ -167,7 +167,7 @@ nav.navbar ul li a {
   background-color: var(--white);
   border: 1px solid var(--sky-blue);
 }
-.consaltation-consal-title-2 h1 {
+.consaltation-consal-title-2 h3 {
   /* padding: 16px 0px; */
   text-align: center;
   font-size: 15px;
@@ -278,7 +278,7 @@ nav.navbar ul li a {
   /* border-radius: 20px; */
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.reservaton-section-title-box h1 {
+.reservaton-section-title-box h3 {
   text-align: center;
 
   font-size: 22px;
@@ -290,7 +290,7 @@ nav.navbar ul li a {
   padding: 10px 0px;
   text-align: center;
 }
-.reservaton-left-cntent h1 {
+.reservaton-left-cntent h3 {
   font-size: 20px;
   margin-bottom: 20px;
   color: var(--sky-blue);
@@ -311,7 +311,7 @@ nav.navbar ul li a {
   line-height: 25px;
 }
 
-.reservaton-right-title h1 {
+.reservaton-right-title h3 {
   font-size: 20px;
   text-align: center;
   color: var(--sky-blue);
@@ -436,7 +436,7 @@ nav.navbar ul li a {
 .footer-title {
   border-bottom: 1px solid var(--black);
 }
-.footer-title h1 {
+.footer-title h3 {
   font-weight: 600;
   font-size: 16px;
   padding: 15px 0px;
