@@ -159,42 +159,6 @@
 /* ======home-page-css-end===== */
 
 /* ====nagan-&-jotesu-office-page-css-start==== */
-.banner-section-2 {
-  background-image: var(--page-slider-img);
-  background-repeat: repeat;
-  background-size: 100% 100%;
-
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 50px 0;
-  position: relative;
-}
-.banner-section-2:before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  background-color: #0f0e0e8f;
-  opacity: 0.4;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.banner-section-2 .title {
-  color: var(--white);
-  position: relative;
-}
-
-.banner-section-2 .title h2 {
-  font-size: 35px;
-  line-height: 1.3;
-  font-weight: 700;
-  margin: 0;
-}
-
 .banner-bottom-section {
   background-color: #e9ecef;
 }
@@ -217,6 +181,8 @@
   margin: 30px 0px 20px 0px;
 }
 .banner-bottom-image {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 .gretting-description p {
@@ -226,6 +192,10 @@
   line-height: 25px;
 }
 .bottom-banner-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 .map {
@@ -376,7 +346,7 @@
 }
 .task-package-bottom-box-2 {
   padding: 15px 8px;
-  margin: 15px 0px;
+  margin-top: 15px;
   background-color: var(--white);
   border: 1px solid var(--black);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;

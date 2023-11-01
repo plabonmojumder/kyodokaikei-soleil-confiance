@@ -10,7 +10,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
-  position: relative;
   overflow-x: hidden;
   font-family: sans-serif;
 }
@@ -87,7 +86,7 @@ nav.navbar ul li a {
   color: var(--light-black);
   font-size: 20px;
   font-weight: 700;
-  border-right: 1px solid var(--black);
+  border-right: 1px solid rgb(201, 201, 201);
   padding: 20px 22px;
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -98,6 +97,27 @@ nav.navbar ul li a {
   padding: 8px 16px;
 }
 /*-- navigation-bar-css-end--- */
+
+
+/* -----banner-section-css -tart---- */
+.all-banner-section{
+  position: relative;
+}
+.banner-inner-content{
+  position: absolute;
+  left: 50%;
+  top: 50%;          
+  transform: translate(-50%,-50%);
+}
+.banner-inner-content  h2{
+ font-size: 30px;
+ line-height: 35px;
+ font-weight: 700;
+ color: var(--white);
+ text-shadow: 0px 0px 10px rgba(0,0,0,.8);
+ letter-spacing: 1px;
+}
+/*----- banner-section-css-end---- */
 
 /* ============================ */
 .consaltation-consal-design {
